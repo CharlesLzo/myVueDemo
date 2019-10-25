@@ -1,6 +1,7 @@
 module.exports = {
     // 基本路径
     publicPath: "./",
+    // publicPath: process.env.NODE_ENV === 'production'? '/myVueDemo/': '/',
     // 构建时的输出目录
     outputDir: "dist",
     // 放置静态资源的目录

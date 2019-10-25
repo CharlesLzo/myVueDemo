@@ -2,6 +2,11 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ul>
+      <li>{{name}}</li>
+      <li>{{age}}</li>
+      <li>{{gender}}</li>
+    </ul>
   </div>
 </template>
 
